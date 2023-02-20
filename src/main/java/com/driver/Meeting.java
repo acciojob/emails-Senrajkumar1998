@@ -21,8 +21,10 @@ public class Meeting {
     public void setEndTime(LocalTime endTime) {
         this.endTime = endTime;
     }
+
     public Meeting(LocalTime startTime, LocalTime endTime){
         this.startTime = startTime;
         this.endTime = endTime;
     }
+
 }

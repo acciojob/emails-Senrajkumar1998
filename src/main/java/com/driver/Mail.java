@@ -3,13 +3,13 @@ package com.driver;
 import java.util.Date;
 
 public class Mail {
-    public Date date;
-    public String sender;
-    public  String message;
+    Date date ;
+    String senderId ;
+    String message ;
 
-    public Mail(Date date, String sender, String message) {
-        this.date=date;
-        this.sender=sender;
-        this.message=message;
+    public Mail(Date date, String senderId, String message) {
+        this.date = date;
+        this.senderId = senderId;
+        this.message = message;
     }
 }
